@@ -51,14 +51,12 @@
 // board-defaults.json and can be left commented out.
 
 // For CheeseCake Rare (ICM42688):
-// #define IMU IMU_ICM42688
-// #define BOARD BOARD_CHEESECAKE_RARE
-// #define IMU_ROTATION DEG_90
+// Default (waist, legs): Use BOARD_CHEESECAKE_RARE environment (DEG_0)
+// Chest: Use BOARD_CHEESECAKE_RARE_CHEST environment (DEG_90)
 
 // For CheeseCake Blueberry (LSM6DSV):
-// #define IMU IMU_LSM6DSV
-// #define BOARD BOARD_CHEESECAKE_BLUEBERRY
-// #define IMU_ROTATION DEG_270  // Note: Y-axis marking is reversed from RareCheese
+// Default (waist, legs): Use BOARD_CHEESECAKE_BLUEBERRY environment (DEG_180)
+// Chest: Use BOARD_CHEESECAKE_BLUEBERRY_CHEST environment (DEG_270)
 
 // ================================================
 

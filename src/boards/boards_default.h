@@ -29,7 +29,8 @@
 
 // Default IMU pinouts and definitions for default tracker types
 
-#if BOARD == BOARD_CHEESECAKE_RARE || BOARD == BOARD_CHEESECAKE_BLUEBERRY
+#if BOARD == BOARD_CHEESECAKE_RARE || BOARD == BOARD_CHEESECAKE_BLUEBERRY || \
+    BOARD == BOARD_CHEESECAKE_RARE_CHEST || BOARD == BOARD_CHEESECAKE_BLUEBERRY_CHEST
 // CheeseCake board pin definitions
 #ifndef PIN_IMU_SDA
 #define PIN_IMU_SDA D2
