@@ -600,10 +600,10 @@
 					}
 				],
 				"BATTERY": {
-					"type": "BAT_INTERNAL",
-					"r1": 10,
-					"r2": 47,
-					"shieldR": 0,
+					"type": "BAT_EXTERNAL",
+					"r1": 100,
+					"r2": 220,
+					"shieldR": 180,
 					"pin": "A0"
 				},
 				"LED": {
@@ -632,10 +632,10 @@
 					}
 				],
 				"BATTERY": {
-					"type": "BAT_INTERNAL",
-					"r1": 10,
-					"r2": 47,
-					"shieldR": 0,
+					"type": "BAT_EXTERNAL",
+					"r1": 100,
+					"r2": 220,
+					"shieldR": 180,
 					"pin": "A0"
 				},
 				"LED": {
