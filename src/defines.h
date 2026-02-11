@@ -58,7 +58,7 @@
 // For CheeseCake Blueberry (LSM6DSV):
 // #define IMU IMU_LSM6DSV
 // #define BOARD BOARD_CHEESECAKE_BLUEBERRY
-// #define IMU_ROTATION DEG_90
+// #define IMU_ROTATION DEG_270  // Note: Y-axis marking is reversed from RareCheese
 
 // ================================================
 
