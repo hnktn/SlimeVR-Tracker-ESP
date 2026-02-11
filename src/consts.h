@@ -104,6 +104,8 @@ enum class SensorTypeID : uint8_t {
 #define BOARD_CHEESECAKE_BLUEBERRY 29  // CheeseCake Blueberry (LSM6DSV) - Default orientation
 #define BOARD_CHEESECAKE_RARE_CHEST 30  // CheeseCake Rare (ICM42688) - Chest orientation
 #define BOARD_CHEESECAKE_BLUEBERRY_CHEST 31  // CheeseCake Blueberry (LSM6DSV) - Chest orientation
+#define BOARD_CHEESECAKE_CHOCO 32  // CheeseCake Choco (BNO085) - Default orientation
+#define BOARD_CHEESECAKE_CHOCO_CHEST 33  // CheeseCake Choco (BNO085) - Chest orientation
 #define BOARD_DEV_RESERVED 250  // Reserved, should not be used in any release firmware
 
 #define BAT_EXTERNAL 1

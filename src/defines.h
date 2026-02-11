@@ -58,6 +58,10 @@
 // Default (waist, legs): Use BOARD_CHEESECAKE_BLUEBERRY environment (DEG_180)
 // Chest: Use BOARD_CHEESECAKE_BLUEBERRY_CHEST environment (DEG_270)
 
+// For CheeseCake Choco (BNO085 with DC-DC Buck):
+// Default (waist, legs): Use BOARD_CHEESECAKE_CHOCO environment (DEG_0)
+// Chest: Use BOARD_CHEESECAKE_CHOCO_CHEST environment (DEG_90)
+
 // ================================================
 
 #ifndef PRIMARY_IMU_OPTIONAL

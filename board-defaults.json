@@ -713,6 +713,68 @@
 				"needManualReboot": false,
 				"shouldOnlyUseDefaults": false
 			}
+		},
+		"BOARD_CHEESECAKE_CHOCO": {
+			"values": {
+				"SENSORS": [
+					{
+						"protocol": "I2C",
+						"imu": "IMU_BNO085",
+						"int": "D5",
+						"rotation": "DEG_0",
+						"scl": "D1",
+						"sda": "D2"
+					}
+				],
+				"BATTERY": {
+					"type": "BAT_EXTERNAL",
+					"r1": 10,
+					"r2": 47,
+					"shieldR": 0,
+					"pin": "A0"
+				},
+				"LED": {
+					"LED_PIN": "2",
+					"LED_INVERTED": true
+				}
+			},
+			"flashingRules": {
+				"applicationOffset": 0,
+				"needBootPress": false,
+				"needManualReboot": false,
+				"shouldOnlyUseDefaults": false
+			}
+		},
+		"BOARD_CHEESECAKE_CHOCO_CHEST": {
+			"values": {
+				"SENSORS": [
+					{
+						"protocol": "I2C",
+						"imu": "IMU_BNO085",
+						"int": "D5",
+						"rotation": "DEG_90",
+						"scl": "D1",
+						"sda": "D2"
+					}
+				],
+				"BATTERY": {
+					"type": "BAT_EXTERNAL",
+					"r1": 10,
+					"r2": 47,
+					"shieldR": 0,
+					"pin": "A0"
+				},
+				"LED": {
+					"LED_PIN": "2",
+					"LED_INVERTED": true
+				}
+			},
+			"flashingRules": {
+				"applicationOffset": 0,
+				"needBootPress": false,
+				"needManualReboot": false,
+				"shouldOnlyUseDefaults": false
+			}
 		}
 	}
 }
