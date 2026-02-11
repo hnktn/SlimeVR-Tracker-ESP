@@ -585,6 +585,70 @@
 				"needManualReboot": false,
 				"shouldOnlyUseDefaults": false
 			}
+		},
+		"BOARD_CHEESECAKE_RARE": {
+			"values": {
+				"SENSORS": [
+					{
+						"protocol": "I2C",
+						"imu": "IMU_ICM42688",
+						"address": 104,
+						"int": "D5",
+						"rotation": "DEG_90",
+						"scl": "D1",
+						"sda": "D2"
+					}
+				],
+				"BATTERY": {
+					"type": "BAT_EXTERNAL",
+					"r1": 10,
+					"r2": 47,
+					"shieldR": 0,
+					"pin": "A0"
+				},
+				"LED": {
+					"LED_PIN": "2",
+					"LED_INVERTED": true
+				}
+			},
+			"flashingRules": {
+				"applicationOffset": 0,
+				"needBootPress": false,
+				"needManualReboot": false,
+				"shouldOnlyUseDefaults": false
+			}
+		},
+		"BOARD_CHEESECAKE_BLUEBERRY": {
+			"values": {
+				"SENSORS": [
+					{
+						"protocol": "I2C",
+						"imu": "IMU_LSM6DSV",
+						"address": 106,
+						"int": "D5",
+						"rotation": "DEG_90",
+						"scl": "D1",
+						"sda": "D2"
+					}
+				],
+				"BATTERY": {
+					"type": "BAT_EXTERNAL",
+					"r1": 10,
+					"r2": 47,
+					"shieldR": 0,
+					"pin": "A0"
+				},
+				"LED": {
+					"LED_PIN": "2",
+					"LED_INVERTED": true
+				}
+			},
+			"flashingRules": {
+				"applicationOffset": 0,
+				"needBootPress": false,
+				"needManualReboot": false,
+				"shouldOnlyUseDefaults": false
+			}
 		}
 	}
 }

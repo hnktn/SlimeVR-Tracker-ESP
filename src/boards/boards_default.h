@@ -29,7 +29,41 @@
 
 // Default IMU pinouts and definitions for default tracker types
 
-#if BOARD != BOARD_GLOVE_IMU_SLIMEVR_DEV
+#if BOARD == BOARD_CHEESECAKE_RARE || BOARD == BOARD_CHEESECAKE_BLUEBERRY
+// CheeseCake board pin definitions
+#ifndef PIN_IMU_SDA
+#define PIN_IMU_SDA D2
+#endif
+#ifndef PIN_IMU_SCL
+#define PIN_IMU_SCL D1
+#endif
+#ifndef PIN_IMU_INT
+#define PIN_IMU_INT D5
+#endif
+#ifndef PIN_IMU_INT_2
+#define PIN_IMU_INT_2 D6
+#endif
+#ifndef PIN_BATTERY_LEVEL
+#define PIN_BATTERY_LEVEL A0
+#endif
+#ifndef BATTERY_SHIELD_RESISTANCE
+#define BATTERY_SHIELD_RESISTANCE 0
+#endif
+#ifndef BATTERY_SHIELD_R1
+#define BATTERY_SHIELD_R1 10
+#endif
+#ifndef BATTERY_SHIELD_R2
+#define BATTERY_SHIELD_R2 47
+#endif
+
+#ifndef MAX_SENSORS_COUNT
+#define MAX_SENSORS_COUNT 1
+#endif
+#ifndef TRACKER_TYPE
+#define TRACKER_TYPE TrackerType::TRACKER_TYPE_SVR_ROTATION
+#endif
+
+#elif BOARD != BOARD_GLOVE_IMU_SLIMEVR_DEV
 // Defaunlt definitions for normal 2-sensor trackers
 #ifndef MAX_SENSORS_COUNT
 #define MAX_SENSORS_COUNT 2

@@ -42,6 +42,26 @@
 #define SECOND_IMU_ROTATION DEG_270
 #endif
 
+// ================================================
+// CheeseCake Board Configuration
+// ================================================
+// Uncomment one of the following to use CheeseCake boards:
+// Note: When using platformio environments (BOARD_CHEESECAKE_RARE or
+// BOARD_CHEESECAKE_BLUEBERRY), these settings are overridden by
+// board-defaults.json and can be left commented out.
+
+// For CheeseCake Rare (ICM42688):
+// #define IMU IMU_ICM42688
+// #define BOARD BOARD_CHEESECAKE_RARE
+// #define IMU_ROTATION DEG_90
+
+// For CheeseCake Blueberry (LSM6DSV):
+// #define IMU IMU_LSM6DSV
+// #define BOARD BOARD_CHEESECAKE_BLUEBERRY
+// #define IMU_ROTATION DEG_90
+
+// ================================================
+
 #ifndef PRIMARY_IMU_OPTIONAL
 #define PRIMARY_IMU_OPTIONAL false
 #endif
