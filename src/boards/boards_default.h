@@ -48,6 +48,20 @@
 #ifndef PIN_BATTERY_LEVEL
 #define PIN_BATTERY_LEVEL A0
 #endif
+
+// Choco board has different battery resistor values (BNO085 with DC-DC Buck)
+#if BOARD == BOARD_CHEESECAKE_CHOCO || BOARD == BOARD_CHEESECAKE_CHOCO_CHEST
+#ifndef BATTERY_SHIELD_RESISTANCE
+#define BATTERY_SHIELD_RESISTANCE 0
+#endif
+#ifndef BATTERY_SHIELD_R1
+#define BATTERY_SHIELD_R1 10
+#endif
+#ifndef BATTERY_SHIELD_R2
+#define BATTERY_SHIELD_R2 47
+#endif
+#else
+// RareCheese and Blueberry boards (ICM42688 and LSM6DSV with DC-DC Buck)
 #ifndef BATTERY_SHIELD_RESISTANCE
 #define BATTERY_SHIELD_RESISTANCE 180
 #endif
@@ -56,6 +70,7 @@
 #endif
 #ifndef BATTERY_SHIELD_R2
 #define BATTERY_SHIELD_R2 220
+#endif
 #endif
 
 #ifndef MAX_SENSORS_COUNT
