@@ -100,12 +100,12 @@ enum class SensorTypeID : uint8_t {
 #define BOARD_SLIMEVR_BUTTERFLY_DEV 25
 #define BOARD_SLIMEVR_BUTTERFLY 26
 // 27 is left free for BOARD_ESP32C6_SUPERMINI, already merged upstream
-#define BOARD_CHEESECAKE_RARE 28  // CheeseCake Rare (ICM42688) - Default orientation
-#define BOARD_CHEESECAKE_BLUEBERRY 29  // CheeseCake Blueberry (LSM6DSV) - Default orientation
-#define BOARD_CHEESECAKE_RARE_CHEST 30  // CheeseCake Rare (ICM42688) - Chest orientation
-#define BOARD_CHEESECAKE_BLUEBERRY_CHEST 31  // CheeseCake Blueberry (LSM6DSV) - Chest orientation
-#define BOARD_CHEESECAKE_CHOCO 32  // CheeseCake Choco (BNO085) - Default orientation
-#define BOARD_CHEESECAKE_CHOCO_CHEST 33  // CheeseCake Choco (BNO085) - Chest orientation
+#define BOARD_CHEESECAKE_RARE 28  // CheeseCake Rare (ICM42688)
+#define BOARD_CHEESECAKE_BLUEBERRY 29  // CheeseCake Blueberry (LSM6DSV)
+#define BOARD_CHEESECAKE_RARE_CHEST 30  // CheeseCake Rare, chest
+#define BOARD_CHEESECAKE_BLUEBERRY_CHEST 31  // CheeseCake Blueberry, chest
+#define BOARD_CHEESECAKE_CHOCO 32  // CheeseCake Choco (BNO085)
+#define BOARD_CHEESECAKE_CHOCO_CHEST 33  // CheeseCake Choco, chest
 #define BOARD_DEV_RESERVED 250  // Reserved, should not be used in any release firmware
 
 #define BAT_EXTERNAL 1
