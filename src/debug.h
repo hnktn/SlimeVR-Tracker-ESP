@@ -102,6 +102,10 @@
 #define FIRMWARE_VERSION "UNKNOWN"
 #endif
 
+#ifndef BUILD_DATE
+#define BUILD_DATE "UNKNOWN"
+#endif
+
 #ifndef USE_RUNTIME_CALIBRATION
 #define USE_RUNTIME_CALIBRATION true
 #endif
